@@ -1,0 +1,43 @@
+sort1 uses: BUBBLE SORT
+
+REV
+5k: 0.092s;
+10k: 0.278s;
+50k: 5.387s;
+
+SORT
+50k: 0.173s
+
+RANDOM:
+50k: 7.228s;
+
+How do you know?: Fast with sort, sloe elsewhere: stops after checking everything the first time;
+
+sort2 uses: MERGE SORT
+
+REV
+5k: 0.035s;
+10k: 0.053s;
+50k: 0.426s;
+
+SORT
+50k: 0.598s;
+
+RANDOM
+50k:0.303s
+
+How do you know?: Fast, always the same steps
+
+sort3 uses: SELECTION SORT
+
+SORT:
+50k: 2.869s;
+REV
+5k: 0.069;
+10k: 0.185;
+50k: 3.004s;
+
+RAND:
+50k: 2.9s;
+
+How do you know?: Always the same steps and slow;

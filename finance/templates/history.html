@@ -1,0 +1,33 @@
+{% extends "layout.html" %}
+
+{% block title %}
+Home
+{% endblock %}
+
+{% block main %}
+<table>
+    <thead>
+        <tr>
+            <th>Ation</th>
+            <th>Stock</th>
+            <th>Price</th>
+            <th>Shares</th>
+            <th>Total</th>
+            <th>Time</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- TODO: Loop through the database entries to display them in this table -->
+        {%for movement in row%}
+        <tr>
+            <td>{{movement[0]}}</td>
+            <td>{{movement[1]}}</td>
+            <td>{{movement[2]}}</td>
+            <td>{{movement[3]}}</td>
+            <td>{{movement[4]}}</td>
+            <td>{{movement[5]}}</td>
+        </tr>
+        {%endfor%}
+    </tbody>
+</table>
+{% endblock %}

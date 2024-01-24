@@ -1,0 +1,1 @@
+WITH songs_names AS (SELECT name FROM songs) SELECT * FROM songs_names;

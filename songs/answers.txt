@@ -1,0 +1,2 @@
+1) I would sum every amount of energy, valence and danceability and divide it all by 300.
+2) It wouldn't be representative because it assumes that the listener has listened to each song the same amount of times, which could very well be a wrong assumption. 

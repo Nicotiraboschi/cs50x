@@ -1,0 +1,15 @@
+{
+    "gitdoc.enabled": true,
+    "files.associations": {
+        "string": "c",
+        "typeinfo": "c",
+        "random": "c",
+        "dictionary.h": "c",
+        "array": "c",
+        "compare": "c",
+        "functional": "c",
+        "tuple": "c",
+        "type_traits": "c",
+        "utility": "c"
+    }
+}
